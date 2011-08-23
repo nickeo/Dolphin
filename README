@@ -1,0 +1,70 @@
+//
+//	README - Dolphin
+//
+//	by Niklas Odén
+//
+
+1. Dolphin, Download
+ 
+Dolphin is on GitHub.
+ 
+  http://github.com/nickeo/Dolphin/
+ 
+Dowload it and point browser to index.php. Update pagespecific constants in config files. 
+
+There is currently no stable version of Dolphin.
+
+
+2. Dolphin, A template for websites
+ 
+Dolphin is to be a simple and clean but powerful webtemplate.
+
+3. Dolphin - why
+ 
+Dolphin is the result of my attempts to learn php at BTH.
+ 
+ 
+4. Dolphin, The name
+ 
+I like dolphins. It's as simple as that.
+
+
+5. Dolphin, The license
+ 
+Copyright (C) 2011 Niklas Odén (niklasoden@hotmail.com)
+Dolphin is currently released as GPL3. 
+
+The file LICENSE includes the license text.
+
+Each file should have the following statement attached to it:
+
+// ===========================================================================================
+//
+// Dolphin, software to build web applications.
+// Copyright (C) 2011 Niklas Odén (niklasoden@hotmail.com)
+//
+// This file is part of Persia.
+//
+// Dolphin is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Dolphin is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Dolphin. If not, see (http://www.gnu.org/licenses/).
+//
+
+
+6. Credits
+
+Review the file CREDITS and see who we are grateful to.
+
+
+ 
+ .
+..: Copyright &copy; 2011 by Niklas Odén (niklasoden@hotmail.com)
