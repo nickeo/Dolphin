@@ -1,0 +1,77 @@
+#
+# Dolphin CREDITS
+#
+# By Niklas Oden, niklasoden@hotmail.com
+#
+
+Opensource is fantastic.
+
+I WOULD LIKE TO THANK THE FOLLOWING...
+
+
+-- [ Teachers ] ---------------------------------------------------------------------------
+
+* Mikael Roos and Rickard Gimerstedt at Blekinge Institute of Technology (BTH)
+
+
+-- [ Web services ] -------------------------------------------------------------------------------
+
+* gravatar.com
+Used in the account profile to give the user an optional gravatar-avatar.
+(http://gravatar.com/)
+(http://en.gravatar.com/site/terms-of-service/)
+
+* reCATPCHA
+Used to prevent bots from creating new accounts.
+(http://recaptcha.net/terms.html)
+Resides in the src/ library, using the recapcha-php modul to perform the action. Review it on GitHub.
+(http://github.com/mosbth/Persia/tree/master/src/recaptcha-php/)
+
+
+-- [ JavaScript ] ---------------------------------------------------------------------------------
+
+* jQuery
+"jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event
+handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change
+the way that you write JavaScript."
+http://jquery.com/
+
+* jQuery Form Plugin
+The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX.
+http://malsup.com/jquery/form/
+http://github.com/malsup/form
+
+
+* jGrowl
+http://stanlemon.net/projects/jgrowl.html
+
+* markItUp
+Markitup is a very good, easy to use wysiwyg editor
+http://markitup.jaysalvat.com/home/
+
+* nicedit
+* WYMEditor
+
+
+-- [ FREE OR OPENSOURCE APPLICATIONS ] ------------------------------------------------------------------
+
+* Firefox with fireftp and firebug
+* Safari, Opera, Chrome, IE
+
+* Cyberduck
+http://cyberduck.ch/
+
+-- [ INFORMATION AND KNOWLEDGE ] ------------------------------------------------------------------
+
+* Google
+* Wikipedia
+* php.net
+* mysql.com
+* w3c.org
+* w3schools.com
+
+
+Again, THANKS.
+
+ .
+..: &copy; Niklas Oden (niklasoden@hotmail.com), 2011

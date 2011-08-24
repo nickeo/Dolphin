@@ -1,0 +1,197 @@
+/*==================================================================================================
+
+	Main navigation-css for dolphin
+	
+	Author: Niklas Odén
+
+==================================================================================================*/
+
+a {
+	font-size:0.8em;
+	text-decoration:none;
+	color:#000000;
+}
+
+
+a.hover {
+	color:#747677;
+}
+
+a.listFiles {
+	text-decoration:none;
+	font-size:1em;
+}
+
+
+a.listFiles:hover {
+	color:#2889cd;
+}
+
+
+a.hNav, a.log {
+	display:block;
+	color:#323131;
+	text-decoration:none;
+	
+}
+
+a.log {
+	font-size:0.7em;
+	padding: 0 5px 0 0;
+}
+
+a.hNav {
+	height:10px;
+	padding: 10px 20px 10px 20px;
+	font-size:0.8em;
+	font-weight:500;
+}
+
+a.hNav:hover {
+	color:#2889cd;
+	background-color:#eceded;
+}
+
+
+a.articleNav, a.articleNavForbidden {
+	color:#323131;
+	font-size:0.8em;
+	text-decoration:none;
+	line-height:18px;
+	/*display:block;
+	height:10px;
+	width:100%;
+	background-color:#f4f6f5;
+	padding:5px 0 5px 5px;
+	margin: 0 5px 2px 0;*/
+}
+
+a.listNav {
+	color:#323131;
+	text-decoration:none;
+	font-size:0.8em;
+}
+
+a.articleNav:hover, a.listNav:hover {
+	color:#2889cd;
+	padding: 0 0 0 5px;
+	/*background-color:#eceded;*/
+}
+
+a.articleNavForbidden:hover {
+	cursor: default;
+	
+}
+
+
+
+a.footerNav, a.footerNav:visited {
+	text-decoration:none;
+	color:#747677;
+	font-size:0.9em;
+}
+
+a.footerNav:hover {
+	color:#2889cd;
+}
+
+a.exam {
+	width:68px;
+	height:20px;
+	display:block;
+	color:#ffffff;
+	background-image: url('../images/buttonsprite.png');
+	background-position:  -7px -7px;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	font-size:0.8em;
+	letter-spacing:2px;
+	margin-left:70px;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+
+}
+
+a.exam:hover {
+	background-position: -7px -39px;
+}
+
+a.comment {
+	color:#4b97d1;
+}
+
+a.noLink {
+	cursor:default;
+}
+
+a.buttonLink {
+	
+	background-color:##2889cd;
+	border: 1px solid #999999;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 6px 10px 4px 10px;
+	margin: 10px 0 10px 0;
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e4e4e4), to(#2889cd)); 
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #e4e4e4, #2889cd); 
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #e9e9e9, #2889cd); 
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #e4e4e4, #2889cd); 
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #e4e4e4, #2889cd);
+}
+
+
+a.big {
+	font-size: 18px;
+	font-weight: lighter;
+	color:#333333;
+}
+
+a.admin, a.adminBlue, a.adminTurquoise {
+	font-size:1em;
+	text-decoration:underline;
+	color:#666666;
+	
+}
+
+a.admin:hover {
+	color:#2f90fe;
+}
+
+a.adminBlue:hover {
+	color:#14c2fb;
+}
+
+a.adminLink, a.adminLinkBlue, a.adminLinkTurquoise {
+	font-size:1em;
+	
+}
+
+a.adminLink {
+	color:#064286;
+}
+
+a.adminLinkBlue {
+	color:#047397;
+}
+
+a.adminLinkTurquoise {
+	color:#0c8990;
+}
+
+a.adminLink:hover, a.adminLinkBlue:hover, a.adminLinkTurquoise:hover {
+	color:#eeeeee;
+}
+
+a.userFiles {
+	color:#2889cd;
+	font-size:1em;
+}
