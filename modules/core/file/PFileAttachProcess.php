@@ -84,6 +84,7 @@ $result = $db->performMultiQueryAndStore($query);
 if($result[1]->num_rows > 0) {
 
 $attachedFile = <<< EOD
+	<br />
 	<h4>Bifogade filer:</h4>
 EOD;
 	while($row = $result[1]->fetch_object())

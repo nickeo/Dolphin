@@ -396,6 +396,11 @@ EOD;
 
 $leftBody = "";
 
+if($postId > 0) {
+	$rightBody = <<< EOD
+		{$articleNav}
+EOD;
+} else {
 $rightBody = <<< EOD
 	{$articleNav}
 	<br />
@@ -413,7 +418,7 @@ $rightBody = <<< EOD
 	
 	</div>
 EOD;
-
+}
 $subHeader = <<< EOD
 	<h1>{$headline}</h1>
 EOD;
