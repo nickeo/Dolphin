@@ -148,7 +148,7 @@ EOD;
 
 
 if($result[2]->num_rows == 0) {
-	$dbTrash = "Det finns inga filer i papperskorgen";
+	$dbTrash = "<p>Det finns inga filer i papperskorgen</p><br />";
 }
 
 // -------------------------------------------------------------------------------------------
