@@ -398,8 +398,8 @@ EOD;
 	$user = 'usr';
 	$account_user = 'tuna';
 	$password = 'secret';
-	$mail = 'nicke@nymusik.net';
-	$mail2 = 'some@mail.se';
+	$mail = 'someadmin@somemail.net';
+	$mail2 = 'someuser@somemail.com';
 	$avatar = $imageLink . "userblue.png";
 	
 		$queryAccount .= <<< EOD
