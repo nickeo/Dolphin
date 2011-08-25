@@ -194,7 +194,7 @@ $mysqli->close();
 //    the content of the page
 //
 
-$subHeader = "<div class='adRight'><a href='' class='big'>Kontrollpanel</a></div><h1>Filarkiv</h1>";
+$subHeader = "<div class='adRight'><a href='?m={$gModule}&amp;p=admincontrol' class='big'>Kontrollpanel</a></div><h1>Filarkiv</h1>";
 
 
 
