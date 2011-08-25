@@ -149,7 +149,7 @@ EOD;
 					
 				<p style='font-size:14px;'>Filen: <i>{$file_name} </i> uppladdad. Unikt namn: {$uniqueName}</p>
 				<br /><br />
-				<a href='?m=files&amp;p=upload'><button class='custombutton'>Ladda upp fler filer</button></a>
+				<a href='?m=core&amp;p=upload'><button class='custombutton'>Ladda upp fler filer</button></a>
 				<br /><br /><br /><br />
 				<div class='clear'></div>
 EOD;
