@@ -56,6 +56,7 @@ $userId = $pc->GETIsSetOrSetDefault('id');
 
 $action = "?m=core&amp;p=editaccountp";
 $errorMessage = isset($_SESSION['errorMessage']) ? $_SESSION['errorMessage'] : "";
+unset($_SESSION['errorMessage']);
 
 //---------------------------------------------------------------------------------------------
 //
@@ -157,6 +158,9 @@ $centerBody = <<< EOD
     	 	</div>
     	 	<div class='settingsRight'>
     	 		<button type='submit' name='submit' class='submitbutton' id='mailbutton' value='changemail' onclick="this.value='changemail';">{$pc->lang['CHANGE_EMAIL']}</button>
+    	 	</div>
+    	 	<div class='left'>
+    	 		<p>{$errorMessage}</p>
     	 	</div>
     	 	<div class='clear'></div>
     	 </div>

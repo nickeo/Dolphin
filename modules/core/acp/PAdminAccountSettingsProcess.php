@@ -130,9 +130,9 @@ EOD;
 		$success = $mail->SendMail($to, $from, $subject, $message);
 		
 		if($success) {
-			$_SESSION['errorMessage'] = "Lyckades med att skicka mail till " . $email;
+			$_SESSION['errorMessage'] = "Bekräftelsemail skickat till " . $email;
 		} else {
-			$_SESSION['errorMessage'] = "Misslyckades med att skicka mail till " . $email;
+			$_SESSION['errorMessage'] = "Misslyckades med att skicka bekräftelsemail till " . $email;
 		}
 	
 	}
